@@ -1,0 +1,1 @@
+// Kode javascript untuk index.html
