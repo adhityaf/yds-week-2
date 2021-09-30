@@ -1,0 +1,214 @@
+body{
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    text-decoration: none;
+}
+
+footer {
+    max-width: 1349px;
+    background-color: rgb(144, 212, 197);
+    color: rgb(63, 131, 116);
+    text-align: center;
+}
+
+.container{
+    position: relative;
+}
+
+.container a{
+    color: rgb(33, 46, 62);
+}
+
+.row{
+    --bs-gutter-x:1.5rem;
+    --bs-gutter-y:0;
+    display:flex;
+    flex-wrap:wrap;
+    margin-top:calc(var(--bs-gutter-y) * -1);
+    margin-right:calc(var(--bs-gutter-x)/ -2);
+    margin-left:calc(var(--bs-gutter-x)/ -2)
+}
+
+.item-name{
+    margin-top: 10px;
+    padding: 9% 45% 6% 6%;
+    color: white;
+}
+
+.item-link{
+    padding: 9% 3% 6% 3%;
+    color: white;
+}
+
+.we-are-creative {
+    text-align: center;
+    color: white;
+    letter-spacing: 10px;
+    font-size: 3.5rem;
+    margin-top: 150px;
+}
+
+#image-header {
+    background-image: url("../images/desktop/image-header.jpg");
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    display: block;
+}
+
+#header #image2{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    display: block;
+}
+
+.card{
+    padding: 15% 6% 12% 6%;     
+}
+
+#section2 .kiri{
+    color: rgb(33, 46, 62);
+    margin-top: -17px;
+    right: 50%;
+    position: absolute;
+    text-align: left;
+    display: block;
+}
+
+#section2 .kanan img{
+    margin-top: -17px;
+    width: 50%;
+    left: 50%;
+    position: relative;
+    display: block;
+}
+
+#section3 .kiri img{
+    width: 50%;
+    right: 50%;
+    position: absolute;
+    display: block;
+}
+
+#section3 .kanan{
+    color: rgb(33, 46, 62);
+    width: 38%;
+    left: 50%;
+    position: relative;
+    text-align: left;
+    display: block;
+}
+
+#image3 {
+    background-image: url("../images/desktop/image-graphic-design.jpg");
+    alt: 'cherry' ;
+    margin-top: 30px;
+    background-size: cover;
+    width: 50%;
+    max-height: 509px;
+    border-radius: 0;
+    float: left;
+}
+
+#image4 {
+    background-image: url("../images/desktop/image-photography.jpg");
+    alt: 'jeruk';
+    margin-top: 30px;
+    background-size: cover;
+    width: 50%;
+    max-height: 509px;
+    border-radius: 0;
+    float: left;
+}
+
+#section4 .text-kiri{
+    color:rgb(41, 88, 87);
+    width: 50%;
+    margin-top: -60px;
+    padding: 60% 25% 2%;
+    text-align: center;
+}
+
+#section4 .text-kanan{
+    color:rgb(30, 82, 106);
+    width: 50%;
+    margin-top: -60px;
+    padding: 60% 25% 2%;
+    text-align: center;
+}
+
+.testimoni-header{
+    color:rgb(168, 168, 168);
+    max-height: 200px;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.5rem;
+}
+
+.testimoni-image{
+    border-radius: 100%;
+    width: 25%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+  
+.testimoni-text-kiri{
+    color:rgb(125, 125, 127);
+    width: 25%;
+    padding: 3% 3% 3% 9%;
+    text-align: center;
+}
+
+.testimoni-text-tengah{
+    color:rgb(125, 125, 127);
+    width: 25%;
+    padding: 3% 0 3% 0;
+    text-align: center;
+}
+
+.testimoni-text-kanan{
+    color:rgb(125, 125, 127);
+    width: 25%;
+    padding: 3% 9% 3% 3%;
+    text-align: center;
+}
+
+.testimoni-name{
+    color: rgb(43, 51, 62);
+    margin: 50px 0 0 ;
+}
+
+.testimoni-role{
+    font-size: 1rem;
+    color:rgb(168, 168, 168);
+}
+
+.sort-image {
+    max-width: 338px;
+    position: relative;
+    display: block;
+}
+
+.footer-title{
+    margin-top: 0px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-size: 2.5rem;
+}
+
+.footer-links a {
+    color: rgb(63, 131, 116);
+    padding: 0 40px;   
+}
+  
+.footer-social {
+    padding: 30px 25px 40px 25px;
+}
